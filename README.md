@@ -26,4 +26,4 @@ After successful installation "Creat a new project" for first run gradle will be
 And I will try to upload every class and extra projects with kotlin. That's all for now.
 ```
 
-[Say hello... ](plus.google.com/+SabbirAhmedSays)
+[Say hello... ]
