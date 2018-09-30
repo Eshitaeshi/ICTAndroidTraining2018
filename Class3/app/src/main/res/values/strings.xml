@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Class3</string>
+    <string name="others">Others</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="this_is_test_text_view">This is test text view</string>
+    <string name="press">Press</string>
+</resources>
