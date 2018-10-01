@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,7 +14,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Accelerometer"
+            android:text="@string/accelerometer"
             android:gravity="center"
             android:textSize="20sp"
             android:textColor="@android:color/black" />
@@ -30,21 +29,22 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="X Axis"
-                android:id="@+id/senX"/>
+                android:text="@string/x_axis"
+                android:id="@+id/senX"
+                tools:ignore="NestedWeights" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Y Axis"
+                android:text="@string/y_axis"
                 android:id="@+id/senY"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Z Axis"
+                android:text="@string/z_axis"
                 android:id="@+id/senZ"/>
 
         </LinearLayout>
@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:text="Magnetometer"
+            android:text="@string/magnetometer"
             android:textSize="20sp"
             android:textColor="@android:color/black" />
         <LinearLayout
@@ -68,21 +68,22 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="X Axis"
-                android:id="@+id/sen_mX"/>
+                android:text="@string/x_axis"
+                android:id="@+id/sen_mX"
+                tools:ignore="NestedWeights" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Y Axis"
+                android:text="@string/y_axis"
                 android:id="@+id/sen_mY"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Z Axis"
+                android:text="@string/z_axis"
                 android:id="@+id/sen_mZ"/>
 
         </LinearLayout>
@@ -90,7 +91,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Light"
+            android:text="@string/light"
             android:gravity="center"
             android:textSize="20sp"
             android:textColor="@android:color/black" />
@@ -105,8 +106,9 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="X Axis"
-                android:id="@+id/light"/>
+                android:text="@string/x_axis"
+                android:id="@+id/light"
+                tools:ignore="NestedWeights" />
 
         </LinearLayout>
 
@@ -114,7 +116,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Proximity"
+            android:text="@string/proximity"
             android:gravity="center"
             android:textSize="20sp"
             android:textColor="@android:color/black" />
@@ -129,8 +131,9 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="X Axis"
-                android:id="@+id/prox"/>
+                android:text="@string/x_axis"
+                android:id="@+id/prox"
+                tools:ignore="NestedWeights" />
 
         </LinearLayout>
     </LinearLayout>

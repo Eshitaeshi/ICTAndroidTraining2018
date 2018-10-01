@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         sen_mZ = findViewById(R.id.sen_mZ);
 //        Light
         light_view = findViewById(R.id.light);
-//        Prox
+//        Proximity
         prox_view = findViewById(R.id.prox);
 
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
@@ -52,14 +52,14 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         }else {
             senY.setText("Magnetometer not supported");
         }
-//        Accelerometer Sensor Init
+//        Light Sensor Init
         light = sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
         if (accel != null){
             sensorManager.registerListener(MainActivity.this, light, SensorManager.SENSOR_DELAY_NORMAL);
         }else {
             senY.setText("Light sensor not supported");
         }
-//        Accelerometer Sensor Init
+//        Proximity Sensor Init
         prox = sensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
         if (accel != null){
             sensorManager.registerListener(MainActivity.this, prox, SensorManager.SENSOR_DELAY_NORMAL);

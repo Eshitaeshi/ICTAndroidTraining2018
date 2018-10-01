@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Class5_project</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="x_axis">X Axis</string>
+    <string name="y_axis">Y Axis</string>
+    <string name="z_axis">Z Axis</string>
+    <string name="magnetometer">Magnetometer</string>
+    <string name="x_axis">X Axis</string>
+    <string name="y_axis">Y Axis</string>
+    <string name="z_axis">Z Axis</string>
+    <string name="light">Light</string>
+    <string name="x_axis">X Axis</string>
+    <string name="proximity">Proximity</string>
+    <string name="x_axis">X Axis</string>
 </resources>
