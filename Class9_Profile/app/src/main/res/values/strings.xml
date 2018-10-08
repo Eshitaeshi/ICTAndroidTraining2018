@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Class9_Profile</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_Close">Close</string>
+    <string name="sabbir_ahmed">Sabbir Ahmed</string>
+    <string name="todo">TODO</string>
+    <string name="tosabbir_ieee_org">tosabbir@ieee.org</string>
+    <string name="phn_num">+8801521468097</string>
+    <string name="follow_me">Follow me</string>
+
+</resources>

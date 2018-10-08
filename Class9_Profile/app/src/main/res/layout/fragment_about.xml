@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+How can I use a VectorDrawable with CircleImageView?
+
+Short answer: you shouldn't. Using a VectorDrawable with CircleImageView is very inefficient. You should modify your vectors to be in a circular shape and use them with a regular ImageView instead.
+
+Why doesn't CircleImageView extend AppCompatImageView?
+
+Extending AppCompatImageView would require adding a runtime dependency for the support library without any real benefit.
+
+How can I add a selector (e.g. ripple effect) bound to a circle?
+
+There's currently no direct support for a circle bound selector but you can follow these steps to implement it yourself.
+
+How can I add a gap between image and border?
+
+Adding a gap is also not support directly but there's a workaround.
+
+"/>
+
+</RelativeLayout>
