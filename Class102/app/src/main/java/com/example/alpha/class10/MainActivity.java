@@ -1,16 +1,23 @@
 package com.example.alpha.class10;
 
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.MediaController;
+import android.widget.RatingBar;
+import android.widget.Toast;
 import android.widget.VideoView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     VideoView videoView;
     Button play, pause, stop;
+    RatingBar ratingBar;
     MediaController mediaController;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +27,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         pause = findViewById(R.id.pause);
         stop = findViewById(R.id.stop);
         videoView = findViewById(R.id.vdo);
+        ratingBar = findViewById(R.id.rate);
+        ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
+            @Override
+            public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
+                Toast.makeText(MainActivity.this, "You Rated"+ rating, Toast.LENGTH_SHORT).show();
+            }
+        });
 
         play();
 
